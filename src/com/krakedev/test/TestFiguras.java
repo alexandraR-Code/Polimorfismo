@@ -8,20 +8,15 @@ public class TestFiguras {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
-		Figura fig = new Figura();
-		fig.setNombre("Figura genérica");
-		fig.setColor("Violeta");
+
+		// Instanciar objetos y imprimir los objetos
+		Figura fig = new Figura("Figuras genericas", "Violeta");
 		System.out.println(fig);
-		
-		Cuadrado cua = new Cuadrado();
-		cua.setNombre("Cuadrado");
-		cua.setColor("Rojo");
+
+		Cuadrado cua = new Cuadrado("Cuadrado", "Rojo");
 		System.out.println(cua);
-		
-		Triangulo tri = new Triangulo();
-		tri.setNombre("Triangulo");
-		tri.setColor("Azul");
+
+		Triangulo tri = new Triangulo("Triangulo", "Azul");
 		System.out.println(tri);
 	}
 
