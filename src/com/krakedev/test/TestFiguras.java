@@ -18,6 +18,7 @@ public class TestFiguras {
 
 		Triangulo tri = new Triangulo("Triangulo", "Azul");
 		System.out.println(tri);
+
 	}
 
 }
