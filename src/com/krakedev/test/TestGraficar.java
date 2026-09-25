@@ -15,9 +15,9 @@ public class TestGraficar {
 		Graficador gra = new Graficador();
 		Figura fig = new Figura("Figura generica", "Violeta");
 		gra.graficar(fig);
-		Cuadrado cua = new Cuadrado("Cuadrado", "Rojo");
+		Cuadrado cua = new Cuadrado("Cuadrado", "Rojo", 4);
 		gra.graficar(cua);
-		Rectangulo rec = new Rectangulo("Rectangulo", "Verde");
+		Rectangulo rec = new Rectangulo("Rectangulo", "Verde", 5, 8);
 		gra.graficar(rec);
 		
 		// Instanciar graficar
