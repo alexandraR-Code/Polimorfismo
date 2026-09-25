@@ -34,4 +34,9 @@ public class Figura {
 		this.color = color;
 	}
 
+	// Metodo polimorfismo
+	public int calcularPerimetro() {
+		return 0;
+	}
+
 }

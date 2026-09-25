@@ -31,8 +31,15 @@ public class Rectangulo extends Figura {
 	}
 
 	// metodo calcular perimetro
+	@Override
 	public int calcularPerimetro() {
 		return 2 * base + 2 * altura;
 	}
+
+	@Override
+	public String toString() {
+		return "Rectangulo [base=" + base + ", altura=" + altura + "]";
+	}
+	
 
 }

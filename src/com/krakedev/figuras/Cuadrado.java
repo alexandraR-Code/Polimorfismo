@@ -21,8 +21,15 @@ public class Cuadrado extends Figura {
 	}
 
 	// Método calcular perimetro
+	@Override
 	public int calcularPerimetro() {
 		return 4 * lado;
 	}
+
+	@Override
+	public String toString() {
+		return "Cuadrado [lado=" + lado + "]";
+	}
+	
 
 }
