@@ -39,4 +39,9 @@ public class Figura {
 		return 0;
 	}
 
+	// Metodo calcular area (polimorfismo)
+	public double calcularArea() {
+		return 0;
+	}
+
 }

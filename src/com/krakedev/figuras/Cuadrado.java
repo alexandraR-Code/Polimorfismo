@@ -30,6 +30,10 @@ public class Cuadrado extends Figura {
 	public String toString() {
 		return "Cuadrado [lado=" + lado + "]";
 	}
-	
+	 
+	@Override
+	public double calcularArea() {
+		return lado * lado;
+	}
 
 }

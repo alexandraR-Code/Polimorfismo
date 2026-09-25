@@ -41,5 +41,10 @@ public class Rectangulo extends Figura {
 		return "Rectangulo [base=" + base + ", altura=" + altura + "]";
 	}
 	
+	@Override
+	public double calcularArea() {
+		return base * altura;
+	}
+	
 
 }
