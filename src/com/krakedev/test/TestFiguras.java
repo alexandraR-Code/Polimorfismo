@@ -10,13 +10,13 @@ public class TestFiguras {
 		// TODO Auto-generated method stub
 
 		// Instanciar objetos y imprimir los objetos
-		Figura fig = new Figura("Figuras genericas", "Violeta");
+		Figura fig = new Cuadrado("Figura tipo Cuadrado", "Violeta", 3);
 		System.out.println(fig);
 
 		Cuadrado cua = new Cuadrado("Cuadrado", "Rojo", 4);
 		System.out.println(cua);
 
-		Triangulo tri = new Triangulo("Triangulo", "Azul");
+		Triangulo tri = new Triangulo("Triangulo", "Azul", 4);
 		System.out.println(tri);
 
 	}

@@ -1,6 +1,6 @@
 package com.krakedev.figuras;
 
-public class Figura {
+public abstract class Figura {
 	// Atributos
 	private String nombre;
 	private String color;
@@ -35,13 +35,9 @@ public class Figura {
 	}
 
 	// Metodo polimorfismo
-	public int calcularPerimetro() {
-		return 0;
-	}
+	public abstract int calcularPerimetro();
+	
 
 	// Metodo calcular area (polimorfismo)
-	public double calcularArea() {
-		return 0;
-	}
-
+	public  abstract double calcularArea();
 }

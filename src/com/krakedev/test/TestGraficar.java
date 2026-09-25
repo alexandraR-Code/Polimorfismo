@@ -13,7 +13,7 @@ public class TestGraficar {
 		// Instanciar obejtoss
 
 		Graficador gra = new Graficador();
-		Figura fig = new Figura("Figura generica", "Violeta");
+		Figura fig = new Cuadrado("Figura tipo Cuadrado", "Violeta", 3);
 		gra.graficar(fig);
 		Cuadrado cua = new Cuadrado("Cuadrado", "Rojo", 4);
 		gra.graficar(cua);
