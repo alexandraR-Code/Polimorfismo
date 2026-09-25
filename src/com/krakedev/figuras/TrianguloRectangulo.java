@@ -37,4 +37,14 @@ public class TrianguloRectangulo extends Figura {
 		this.hipotenusa = Math.sqrt(catetoA * catetoA + catetoB * catetoB);
 	}
 
+	@Override
+	public double calcularArea() {
+		return (catetoA * catetoB) / 2.0;
+	}
+
+	@Override
+	public int calcularPerimetro() {
+		return (int) (catetoA + catetoB + hipotenusa);
+	}
+
 }

@@ -7,6 +7,6 @@ public class Graficador {
 		System.out.println(
 				"Graficando " + figura.getNombre().toUpperCase() + 
 				" de color " + figura.getColor().toUpperCase() + 
-				" con perímetro " + figura.calcularPerimetro() + " y area " + figura.calcularArea());
+				" con perímetro " + figura.calcularPerimetro() + " y área " + figura.calcularArea());
 		}
 }
