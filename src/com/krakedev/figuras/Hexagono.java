@@ -13,8 +13,8 @@ public class Hexagono extends Figura {
 	public void setLado(int lado) {
 		this.lado = lado;
 	}
-	
-	// Constructor 
+
+	// Constructor
 	public Hexagono(String nombre, String color, int lado) {
 		super(nombre, color);
 		this.lado = lado;
@@ -22,15 +22,13 @@ public class Hexagono extends Figura {
 
 	@Override
 	public int calcularPerimetro() {
-		return 6* lado;
+		return 6 * lado;
 	}
 
 	@Override
 	public double calcularArea() {
-		return (3 * Math.sqrt(3)*lado*lado)/2;
+		return (3 * Math.sqrt(3) * lado * lado) / 2; // sqrt: Sirve para calcular la raiz cuadrada de un nuemero
+														// utilizandolo asi Math.sqrt()
 	}
-	
-	
-	
 
 }
