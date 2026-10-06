@@ -46,5 +46,17 @@ public class Rectangulo extends Figura {
 		return base * altura;
 	}
 	
+	@Override
+	public void imprimirDetalle() {
+		System.out.println(getNombre() + getColor() + calcularPerimetro() + calcularArea());
+
+	}
+	
+	
+	
+	
+	
+	
+	
 
 }

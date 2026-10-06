@@ -36,8 +36,13 @@ public abstract class Figura {
 
 	// Metodo polimorfismo
 	public abstract int calcularPerimetro();
-	
 
 	// Metodo calcular area (polimorfismo)
-	public  abstract double calcularArea();
+	public abstract double calcularArea();
+
+	public void imprimirDetalle() {
+		System.out.println(getNombre() + " " + getColor());
+
+	}
+
 }

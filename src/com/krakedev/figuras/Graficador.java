@@ -8,5 +8,7 @@ public class Graficador {
 				"Graficando " + figura.getNombre().toUpperCase() + 
 				" de color " + figura.getColor().toUpperCase() + 
 				" con perímetro " + figura.calcularPerimetro() + " y área " + figura.calcularArea());
+		
+		figura.imprimirDetalle();
 		}
 }
